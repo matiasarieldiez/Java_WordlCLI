@@ -12,6 +12,7 @@ public class Main {
 		Game newGame = new Game();
 		newGame.setWordOfTheDay();
 		System.out.println(newGame.getWordOfTheDay()); // This line is for debug/test only 
+		newGame.gameGreeting("Welcome! Please enter a 5 letter word: ");
 		newGame.setUserInput();
 		newGame.compareWords();	
 		newGame.printFinalMessage();

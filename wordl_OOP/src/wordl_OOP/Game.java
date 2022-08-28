@@ -20,6 +20,10 @@ public class Game {
 		return this.wordOfTheDay;
 	}
 	
+	public void gameGreeting(String string) {
+		System.out.println(string);
+	}
+	
 	public void setWordOfTheDay() {
 		this.wordOfTheDay = new WordSelector().getRandomWord();	
 	}
@@ -85,7 +89,7 @@ public class Game {
 		if (this.hasWon == true) {
 			System.out.println("Congrtulations, You've guessed in " + this.numberOfAttempts + " attempts");
 		} else {
-			System.out.println("You've lost. Better Luck Next Time");
+			System.out.println("You've lost. The word was: "+ this.wordOfTheDay.toUpperCase() + ". Better Luck Next Time");
 		}
 	}
 }
