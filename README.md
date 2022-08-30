@@ -26,6 +26,12 @@ If they don't exist in the word, you'll get them back with no color.
 You have 6 attempts.
 If you guess, you win. If you don't, the word will be revealed to you and better luck next time.
 
+### Eclipse Marketplace Extension Needed
+
+To get the colored output in the console, I installed and used ANSI CONSOLE
+![Screenshot](./img/ANSI_Extension.jpg)
+![Screenshot](./img/ANSI_Extension_2.jpg)
+
 ## How did I approach this project?
 
 I wrote peudo coude describing what would I need to make this project work.
